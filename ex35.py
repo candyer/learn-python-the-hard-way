@@ -78,7 +78,7 @@ def start():
 	print "There is a door to your right left or middle."
 	print "Which one do you take?"
 
-	next = raw_input(">>")
+	next = raw_input(">")
 
 	if next == "left":
 		bear_room()
